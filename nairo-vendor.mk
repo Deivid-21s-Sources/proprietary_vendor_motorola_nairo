@@ -6,20 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/nairo
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/nairo/proprietary/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
-    vendor/motorola/nairo/proprietary/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
-    vendor/motorola/nairo/proprietary/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
-    vendor/motorola/nairo/proprietary/product/etc/init/init.motcamera2.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.motcamera2.rc \
-    vendor/motorola/nairo/proprietary/product/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
-    vendor/motorola/nairo/proprietary/product/etc/permissions/com.motorola.camera2.content.ai.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.content.ai.xml \
-    vendor/motorola/nairo/proprietary/product/etc/permissions/com.motorola.camera2.whitney.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.whitney.xml \
-    vendor/motorola/nairo/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml \
-    vendor/motorola/nairo/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
-    vendor/motorola/nairo/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml \
     vendor/motorola/nairo/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/motorola/nairo/proprietary/system_ext/etc/public.libraries-motocamera.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motocamera.txt \
-    vendor/motorola/nairo/proprietary/system_ext/lib/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmcf_native_window_helper.motocamera.so \
-    vendor/motorola/nairo/proprietary/system_ext/lib64/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcf_native_window_helper.motocamera.so \
     vendor/motorola/nairo/proprietary/vendor/bin/capsense_reset:$(TARGET_COPY_OUT_VENDOR)/bin/capsense_reset \
     vendor/motorola/nairo/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/nairo/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
@@ -299,14 +286,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nairo/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 PRODUCT_PACKAGES += \
-    MotoSignatureApp \
-    MotCamera2AI \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
-    MotCamera2 \
-    MotorolaSettingsProvider \
-    com.motorola.motosignature \
-    moto-core_services \
-    moto-settings \
-    com.motorola.androidx.camera.extensions \
     com.android.hotwordenrollment.common.util
